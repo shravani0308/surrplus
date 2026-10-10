@@ -248,7 +248,7 @@ Both the **Backend** and **Frontend** are pre-configured with `vercel.json` and 
    - **Framework Preset**: Other (automatically detected via `backend/vercel.json`)
 4. In **Environment Variables**, add:
    - Name: `MONGODB_URI`
-   - Value: `mongodb+srv://himanshuyada70_db_user:Mzqa7ncv77Dv1ZEI@cluster0.00yjjvs.mongodb.net/surpluslink?retryWrites=true&w=majority`
+   - Value: `mongodb+srv://`
 5. Click **Deploy**.
 6. Once deployed, copy your backend production URL (e.g., `https://surpluslink-backend.vercel.app`).
 
