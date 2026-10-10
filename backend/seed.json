@@ -1,0 +1,99 @@
+{
+  "clock": "2026-10-09T18:00",
+  "donors": [
+    {
+      "id": "donor_1",
+      "name": "Green Leaf Bistro",
+      "zone": "Zone A"
+    },
+    {
+      "id": "donor_2",
+      "name": "Ocean Catch Seafood",
+      "zone": "Zone B"
+    },
+    {
+      "id": "donor_3",
+      "name": "Harvest Bakery & Cafe",
+      "zone": "Zone A"
+    },
+    {
+      "id": "donor_4",
+      "name": "Spice Route Kitchen",
+      "zone": "Zone C"
+    },
+    {
+      "id": "donor_5",
+      "name": "Golden Wok Express",
+      "zone": "Zone B"
+    }
+  ],
+  "volunteers": [
+    {
+      "id": "vol_1",
+      "name": "Alice Smith",
+      "capacity_kg": 25,
+      "zones": ["Zone A", "Zone B"]
+    },
+    {
+      "id": "vol_2",
+      "name": "Brian Chen",
+      "capacity_kg": 15,
+      "zones": ["Zone B", "Zone C"]
+    },
+    {
+      "id": "vol_3",
+      "name": "Clara Rodriguez",
+      "capacity_kg": 40,
+      "zones": ["Zone A", "Zone C"]
+    },
+    {
+      "id": "vol_4",
+      "name": "David Kim",
+      "capacity_kg": 10,
+      "zones": ["Zone A"]
+    }
+  ],
+  "donations": [
+    {
+      "id": "don_1",
+      "donor_id": "donor_1",
+      "description": "Fresh Salads, Quinoa Bowls & Wraps",
+      "quantity_kg": 15,
+      "pickup_from": "2026-10-09T18:15",
+      "pickup_until": "2026-10-09T20:00"
+    },
+    {
+      "id": "don_2",
+      "donor_id": "donor_2",
+      "description": "Grilled Salmon and Steamed Vegetables",
+      "quantity_kg": 20,
+      "pickup_from": "2026-10-09T18:30",
+      "pickup_until": "2026-10-09T21:00"
+    },
+    {
+      "id": "don_3",
+      "donor_id": "donor_3",
+      "description": "Artisan Sourdough Loaves & Croissants",
+      "quantity_kg": 12,
+      "pickup_from": "2026-10-09T18:00",
+      "pickup_until": "2026-10-09T19:00"
+    },
+    {
+      "id": "don_4",
+      "donor_id": "donor_4",
+      "description": "Vegetable Biryani & Dal Makhani",
+      "quantity_kg": 30,
+      "pickup_from": "2026-10-09T19:00",
+      "pickup_until": "2026-10-09T22:00"
+    },
+    {
+      "id": "don_5",
+      "donor_id": "donor_5",
+      "description": "Stir-fried Noodles and Dumplings",
+      "quantity_kg": 8,
+      "pickup_from": "2026-10-09T18:00",
+      "pickup_until": "2026-10-09T18:45"
+    }
+  ]
+}
+
